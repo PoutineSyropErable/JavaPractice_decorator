@@ -16,7 +16,7 @@ public class Notifier implements INotifier
 	{
 
 		String mail = databaseService.getMailFromUsername(username);
-		System.out.println("Sending " + msg + "By Mail to " + mail);
+		System.out.println("Sending " + msg + " By Mail to " + mail);
 	}
 
 	@Override
@@ -26,9 +26,4 @@ public class Notifier implements INotifier
 	}
 
 	// -----------------------------------------------------------------------------------
-	public static void main(String[] args)
-	{
-		System.out.println("test");
-
-	}
 }
